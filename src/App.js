@@ -11,8 +11,6 @@ function App() {
       css={css`
         max-width: 1100px;
         margin: auto;
-        @media screen (width: auto ;) {
-        }
       `}
     >
       <NoteBlock notes={notes} />
