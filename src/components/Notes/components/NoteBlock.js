@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 
 import NoteItem from "./NoteItem";
 
-export default function NoteBlock({ notes }) {
+function NoteBlock({ notes }) {
   return (
     <div
       css={css`
@@ -21,3 +21,4 @@ export default function NoteBlock({ notes }) {
     </div>
   );
 }
+export default NoteBlock;

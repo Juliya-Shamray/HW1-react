@@ -1,20 +1,11 @@
-/** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react";
-
-import notes from "./notes.json";
-
-import NoteBlock from "./components/NoteBlock";
+import Notes from "./components/Notes";
+import Page from "./components/Page";
 
 function App() {
   return (
-    <div
-      css={css`
-        max-width: 1100px;
-        margin: auto;
-      `}
-    >
-      <NoteBlock notes={notes} />
-    </div>
+    <Page>
+      <Notes />
+    </Page>
   );
 }
 
